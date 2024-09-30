@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+    <Courses>
+      <Course>
+        <Name>LA_TIÑOSA_1.570_mts_Priego_de_Cordoba_2015-11-14-0</Name>
+        <Lap>
+            <TotalTimeSeconds>-8670</TotalTimeSeconds>
+            <DistanceMeters>5869.244193667823</DistanceMeters>
+            <BeginPosition>
+              <LatitudeDegrees>37.381399</LatitudeDegrees>
+              <LongitudeDegrees>-4.246417</LongitudeDegrees>
+            </BeginPosition>
+            <EndPosition>
+              <LatitudeDegrees>37.382119</LatitudeDegrees>
+              <LongitudeDegrees>-4.249696</LongitudeDegrees>
+            </EndPosition>
+            <Intensity>Active</Intensity>
+          </Lap>
+          <Track>
+            <Trackpoint>
+              <Time>2015-11-14T12:39:14Z</Time>
+              <Position>
+                <LatitudeDegrees>37.381399</LatitudeDegrees>
+                <LongitudeDegrees>-4.246417</LongitudeDegrees>
+              </Position>
+              <AltitudeMeters>1516.039</AltitudeMeters>
+            </Trackpoint>
+             <Trackpoint>
+          <Time>2015-11-14T12:39:23Z</Time>
+          <Position>
+            <LatitudeDegrees>37.381401</LatitudeDegrees>
+            <LongitudeDegrees>-4.246532</LongitudeDegrees>
+          </Position>
+          <AltitudeMeters>1511.001</AltitudeMeters>
+          <Extensions>
+            <TPX xmlns="http://www.garmin.com/xmlschemas/ActivityExtension/v2">
+              <Speed>1.2585</Speed>
+            </TPX>
+          </Extensions>
+        </Trackpoint>
+        </Track>
+      </Course>
+    </Courses> 
+</TrainingCenterDatabase>

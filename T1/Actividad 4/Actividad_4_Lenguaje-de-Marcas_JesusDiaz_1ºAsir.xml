@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<horario>
+    <LUNES>
+        <primera_hora>
+            <asignatura>IPE</asignatura>
+            <profesor>Gema Sánchez</profesor>
+        </primera_hora>
+        <segunda_hora>
+            <asignatura>IPE</asignatura>
+            <profesor>Gema Sánchez</profesor>
+        </segunda_hora>
+        <tercera_hora>
+            <asignatura>Lenguaje de marcas</asignatura>
+            <profesor>José Aguilera</profesor>
+        </tercera_hora>
+        <cuarta_hora>
+            <asignatura>GBD</asignatura>
+            <profesor>Amelia Pérez</profesor>
+        </cuarta_hora>
+        <quinta_hora>
+            <asignatura>GBD</asignatura>
+            <profesor>Amelia Pérez</profesor>
+        </quinta_hora>
+        <sexta_hora>
+            <asignatura>Digitalización</asignatura>
+            <profesor>Amelia Pérez</profesor>
+        </sexta_hora>
+    </LUNES>
+    <MARTES>
+        <primera_hora>
+            <asignatura>Sostenibilidad</asignatura>
+            <profesor>Gema Sánchez</profesor>
+        </primera_hora>
+        <segunda_hora>
+            <asignatura>IPE</asignatura>
+            <profesor>Gema Sánchez</profesor>
+        </segunda_hora>
+        <tercera_hora>
+            <asignatura>Lenguaje de marcas</asignatura>
+            <profesor>José Aguilera</profesor>
+        </tercera_hora>
+        <cuarta_hora>
+            <asignatura>Lenguaje de marcas</asignatura>
+            <profesor>José Aguilera</profesor>
+        </cuarta_hora>
+        <quinta_hora>
+            <asignatura>Redes</asignatura>
+            <profesor>Lourdes Magarín</profesor>
+        </quinta_hora>
+        <sexta_hora>
+            <asignatura>Redes</asignatura>
+            <profesor>Lourdes Magarín</profesor>
+        </sexta_hora>
+    </MARTES>
+    <MIERCOLES>
+        <primera_hora>
+            <asignatura>ISO</asignatura>
+            <profesor>María Ojeda</profesor>
+        </primera_hora>
+        <segunda_hora>
+            <asignatura>ISO</asignatura>
+            <profesor>María Ojeda</profesor>
+        </segunda_hora>
+        <tercera_hora>
+            <asignatura>ISO</asignatura>
+            <profesor>María Ojeda</profesor>
+        </tercera_hora>
+        <cuarta_hora>
+            <asignatura>GBD</asignatura>
+            <profesor>Amelia Pérez</profesor>
+        </cuarta_hora>
+        <quinta_hora>
+            <asignatura>GBD</asignatura>
+            <profesor>Amelia Pérez</profesor>
+        </quinta_hora>
+        <sexta_hora>
+            <asignatura>GBD</asignatura>
+            <profesor>Amelia Pérez</profesor>
+        </sexta_hora>
+    </MIERCOLES>
+    <JUEVES>
+        <primera_hora>
+            <asignatura>GBD</asignatura>
+            <profesor>Amelia Pérez</profesor>
+        </primera_hora>
+        <segunda_hora>
+            <asignatura>ISO</asignatura>
+            <profesor>María Ojeda</profesor>
+        </segunda_hora>
+        <tercera_hora>
+            <asignatura>ISO</asignatura>
+            <profesor>María Ojeda</profesor>
+        </tercera_hora>
+        <cuarta_hora>
+            <asignatura>ISO</asignatura>
+            <profesor>María Ojeda</profesor>
+        </cuarta_hora>
+        <quinta_hora>
+            <asignatura>Redes</asignatura>
+            <profesor>Lourdes Magarín</profesor>
+        </quinta_hora>
+        <sexta_hora>
+            <asignatura>Redes</asignatura>
+            <profesor>Lourdes Magarín</profesor>
+        </sexta_hora>
+    </JUEVES>
+    <VIERNES>
+        <primera_hora>
+            <asignatura>FH</asignatura>
+            <profesor>Miguel Ángel</profesor>
+        </primera_hora>
+        <segunda_hora>
+            <asignatura>FH</asignatura>
+            <profesor>Miguel Ángel</profesor>
+        </segunda_hora>
+        <tercera_hora>
+            <asignatura>FH</asignatura>
+            <profesor>Miguel Ángel</profesor>
+        </tercera_hora>
+        <cuarta_hora>
+            <asignatura>Redes</asignatura>
+            <profesor>Louedes Magarín</profesor>
+        </cuarta_hora>
+        <quinta_hora>
+            <asignatura>Redes</asignatura>
+            <profesor>Lourdes Magarín</profesor>
+        </quinta_hora>
+        <sexta_hora>
+            <asignatura>ISO</asignatura>
+            <profesor>María Ojeda</profesor>
+        </sexta_hora>
+    </VIERNES>
+</horario>
