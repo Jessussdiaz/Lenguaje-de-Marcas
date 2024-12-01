@@ -2,20 +2,20 @@
 
 - Aquí encontrarás las actividades relacionadas con asignatura de Lenguaje de Marcas 
 
-[Unidad 1](.lm/ud1/)
+- [Unidad 1](./ud1/)
 
-[Unidad 2](.lm/ud2/)
+- [Unidad 2](./ud2/)
 
-[Unidad 3](.lm\ud3)
+- [Unidad 3](./ud3/)
 
-[Unidad 4]()
+- [Unidad 4]()
 
-[Unidad 5]()
+- [Unidad 5]()
 
-[Unidad 6]()
+- [Unidad 6]()
 
-[Unidad 7]()
+- [Unidad 7]()
 
-[Unidad 8]()
+- [Unidad 8]()
 
    
