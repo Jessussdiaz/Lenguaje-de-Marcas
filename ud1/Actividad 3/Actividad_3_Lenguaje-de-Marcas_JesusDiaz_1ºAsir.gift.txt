@@ -1,0 +1,56 @@
+De entre la siguiente lista marca solo los equipos de la liga española {
+
+~ %33.34%Real Madrid 
+
+~ %33.33%Real Betis 
+
+~ Arsenal 
+
+~ Juventus 
+
+~ %33.33%FC Barcelona}
+
+¿Cuáles de los siguientes coches son modelos eléctricos?
+
+~%33,33%Tesla Model 3
+
+~%33,34%Ford Mustang Mach-E
+
+~Toyota Corolla
+
+~%33,33%Nissan Leaf
+
+¿Cuáles de los siguientes países son miembros de la Unión Europea?
+
+~ %50%Alemania
+
+~ Noruega
+
+~ %50%España
+
+~ Suiza
+
+¿De los siguientes años, cuantas champions ganó el Real Madrid?
+
+~ %25%2017
+
+~ 2010 
+
+~ %25%2022
+
+~ %25%2002
+
+~ %25%2014
+
+~ 2021
+
+
+¿Cuáles de los siguientes países tienen más de un idioma oficial?
+
+~ %50%Canadá
+
+~Estados Unidos
+
+~%50%Suiza
+
+~Brasil
