@@ -4,7 +4,7 @@
 
 - [Unidad 1](./ud1/)
 
-- [Unidad 2](./ud2/)
+- [Unidad 2](./ud2/Readme_ud2.md)
 
 - [Unidad 3](./ud3/)
 
