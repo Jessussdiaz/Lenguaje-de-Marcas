@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad_10</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Formulario</legend>
+            Nombre:
+            <input type="text" name="nombre" placeholder="Ingrese su nombre completo" minlength="3">
+            <br>
+            Fecha:
+            <input type="date" name="fecha" placeholder="Ingresa la fecha de salida" required>
+            <br>
+            Menú desplegable:
+            <select name="Clase de vuelo" id="clase">
+                <option value="Económica">Económica</option>
+                <option value="Ejecutiva">Ejecutiva</option>
+                <option value="Primera clase">Primera clase</option>  
+            </select>
+            <br>
+            Equipaje Adicional: 
+            <br>
+            <input type="radio" id="Sí" name="Equipaje" value="Sí"> Sí
+            <br>
+            <input type="radio" id="No" name="Equipaje" value="No"> No
+            <br>
+            <input type="submit" name="Enviar">
+        </fieldset>
+    </form>
+</body>
+</html>
