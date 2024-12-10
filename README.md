@@ -6,7 +6,7 @@
 
 - [Unidad 2](./ud2/##%20Unidad%202.md)
 
-- [Unidad 3](./ud3/)
+- [Unidad 3](./UD3/README.md)
 
 - [Unidad 4]()
 
