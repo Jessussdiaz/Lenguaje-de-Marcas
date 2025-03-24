@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Ruta Turística por Córdoba</name>
+    <Placemark>
+      <name>Plaza de Santa Teresa</name>
+      <Point><coordinates>-4.775530, 37.875137</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Torre de la Calahorra</name>
+      <Point><coordinates>-4.776578, 37.875652</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Estatua de San Rafael (Puente Romano)</name>
+      <Point><coordinates>-4.777795, 37.876607</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Puerta del Puente</name>
+      <Point><coordinates>-4.779096, 37.877713</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mezquita-Catedral de Córdoba</name>
+      <Point><coordinates>-4.780359, 37.879649</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Museo Arqueológico de Córdoba</name>
+      <Point><coordinates>-4.778138, 37.881906</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de la Corredera</name>
+      <Point><coordinates>-4.774433, 37.883581</coordinates></Point>
+    </Placemark>
+        <Placemark>
+      <name>Kurtuba Gastro Bar</name>
+      <Point><coordinates>-4.775980, 37.885104</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Templo Romano de Córdoba</name>
+      <Point><coordinates>-4.776082, 37.884670</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Plaza de las Tendillas</name>
+      <Point><coordinates>-4.779426, 37.884576</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Estadio Bahrain Victorious Nuevo Arcángel</name>
+      <Point><coordinates>-4.765853, 37.872357</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Centro Comercial El Arcángel</name>
+      <Point><coordinates>-4.767009, 37.877637</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>100 Montaditos Córdoba Arcángel</name>
+      <Point><coordinates>-4.766621, 37.877357</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
