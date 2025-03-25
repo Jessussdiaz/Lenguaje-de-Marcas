@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blend Mode</title>
+    <style>
+        body {
+            display: flex;
+            margin: 0;
+            height: 100vh; /* Altura completa */
+        }
+
+        .section {
+            flex: 1; /* Ambas secciones ocupan el mismo ancho */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            font-size: 2rem;
+            color: white;
+        }
+
+        .not-blended {
+            background-image: url(1349214.jpg); /* Imagen sin mezclar */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .blended {
+            background-image: 
+                url(3641559.jpg), /* Imagen base */
+                linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(255, 255, 0, 0.5)); /* Gradiente de colores */
+            background-size: cover;
+            background-position: center;
+            background-blend-mode: multiply; /* Mezcla de colores */
+        }
+    </style>
+</head>
+<body>
+    <div class="section not-blended">
+        Not Blended
+    </div>
+    <div class="section blended">
+        Blended
+    </div>
+</body>
+</html>
