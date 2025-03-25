@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE logs [
+<!ELEMENT logs (log+)>
+<!ELEMENT log (descripción, archivo, fecha, hora, solucion)>
+<!ATTLIST log id ID #REQUIRED>
+<!ATTLIST log tipo CDATA #REQUIRED>
+<!ELEMENT descripción (#PCDATA)>
+<!ELEMENT archivo (nombre, formato)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT formato (#PCDATA)>
+<!ELEMENT fecha (dia, mes, año)>
+<!ELEMENT dia (#PCDATA)>
+<!ELEMENT mes (#PCDATA)>
+<!ELEMENT año (#PCDATA)>
+<!ELEMENT hora (#PCDATA)>
+<!ELEMENT solucion (#PCDATA)>
+]>
+
+
+<logs>
+    <log tipo="warning">
+
+            <descripción>El archivo ha tenido uno o varios warnings.</descripción>
+            <archivo>
+                <nombre>actividad_guiada5</nombre>
+                <formato>XML</formato>
+            </archivo>
+            <fecha>
+                <dia>24</dia>
+                <mes>Febrero</mes>
+                <año>2025</año>
+            </fecha>
+            <hora>11:00</hora>
+            <solucion>Es recomendable analizar profundamente el archivo para revisar que este todo correctamente o sino completar los valores nulos en el archivo antes de procesarlo.</solucion>
+    </log>
+    <log id="102" tipo="warning">
+
+            <descripción>El archivo ha tenido uno o varios warnings.</descripción>
+            <archivo>
+                <nombre>actividad_guiada3</nombre>
+                <formato>XML</formato>
+            </archivo>
+            <fecha>
+                <dia>24</dia>
+                <mes>Febrero</mes>
+                <año>2025</año>
+            </fecha>
+            <hora>11:10</hora>
+            <solucion>Es recomendable analizar profundamente el archivo para revisar que este todo correctamente o sino completar los valores nulos en el archivo antes de procesarlo.</solucion>
+    </log>
+</logs>

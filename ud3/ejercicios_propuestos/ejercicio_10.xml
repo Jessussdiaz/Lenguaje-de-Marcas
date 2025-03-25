@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="ejercicio_10.xsd">
+   <ficha>
+      <nombre>Antonio Machado Ruiz</nombre>
+      <iniciales>AMR</iniciales>
+      <edad>22</edad>
+   </ficha>
+   <ficha>
+      <nombre>Mario Moreno</nombre>
+      <iniciales>MMO</iniciales> <!-- Corregido: debe tener 3 letras mayúsculas -->
+      <edad>23</edad>
+   </ficha>
+   <ficha>
+      <nombre>Ada Lovelace</nombre>
+      <iniciales>ALO</iniciales>
+      <edad>24</edad>
+   </ficha>
+   <ficha>
+      <nombre>Pablo Ruiz Picasso</nombre> <!-- Corregido: nombres propios con mayúscula inicial -->
+      <iniciales>PRP</iniciales> <!-- Corregido: iniciales deben ser mayúsculas -->
+      <edad>24</edad>
+   </ficha>
+</fichas>

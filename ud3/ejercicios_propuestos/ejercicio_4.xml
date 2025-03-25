@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="ejercicio_4.xsd">
+    <persona fechaNacimiento="1990-05-12">
+        <datos>
+            <nombre>Juan</nombre>
+            <apellidos>Pérez López</apellidos>
+            <dni>12345678A</dni>
+        </datos>
+        <comentario>Amante de la música y la lectura.</comentario>
+    </persona>
+
+    <persona fechaNacimiento="1985-09-22">
+        <datos>
+            <nombre>María</nombre>
+            <apellidos>Gómez Fernández</apellidos>
+            <dni>87654321B</dni>
+        </datos>
+        <comentario>Ingeniera apasionada por la tecnología.</comentario>
+    </persona>
+</personas>
