@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<reinado>
+    <paises>
+        <nombre>Gran Bretaña</nombre>
+        <capital>Londres</capital>
+        <rey>Carlos III</rey>
+        <reina>Camila</reina>
+    </paises>
+</reinado>
