@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.o">
+<channel>
+    <title>Noticia 1</title>
+    <link>https://www.midominio.com/noticia1</link>
+    <description>Descripción de la noticia 1</description>
+    <item>
+        <title>Noticia 2</title>
+        <link>https://www.midominio.com/noticia2</link>
+        <description>Descripción de la noticia 2</description>
+        <pubDate>Lunes, 21 de abril de 2025</pubDate>
+    </item>
+</channel>
+</rss>
