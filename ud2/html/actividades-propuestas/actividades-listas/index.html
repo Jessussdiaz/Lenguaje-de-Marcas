@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de actividades-listas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-left: 5px solid #007bff;
+            background: #eef5ff;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head> 
+<body>
+    <div class="container">
+        <h1>Dashboard de Actividades</h1>
+        
+        <div class="section">
+            <h2>📂 Actividades de listas</h2>
+            <ul>
+                <li><a href="actividad_1.html">📝 Actividad 1 </a></li>
+                <li><a href="actividad_2.html">📝 Actividad 2 </a></li>
+                <li><a href="actividad_3.html">📝 Actividad 3 </a></li>
+                <li><a href="actividad_4.html"> 📝 Actividad 4 </a></li>
+            </ul>
+        </div>
+    </div>
+    <button onclick="goBack()">Volver</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

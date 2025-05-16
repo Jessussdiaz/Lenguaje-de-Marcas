@@ -6,6 +6,22 @@
     <title>actividad_8</title>
 </head>
 <body>
-    <p><strong>Utiliza una imagen del sistema solar, para crear un documento con una imagen con enlaces a los diferentes elementos significativos (planetas, lunas, ...) que aparecen en la misma.</strong></p>
+    <h1>El Sistema Solar</h1>
+    <p>Haz clic en un planeta para ir a su página de Wikipedia.</p>
+
+    <!-- Imagen del sistema solar -->
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Planets2013.svg" alt="Sistema Solar" usemap="#sistema-solar" width="1000">
+
+    <!-- Mapa de las áreas clicables -->
+    <map name="sistema-solar">
+        <area shape="circle" coords="80,250,30" href="https://es.wikipedia.org/wiki/Mercurio_(planeta)" alt="Mercurio" target="_blank">
+        <area shape="circle" coords="180,250,40" href="https://es.wikipedia.org/wiki/Venus" alt="Venus" target="_blank">
+        <area shape="circle" coords="300,250,45" href="https://es.wikipedia.org/wiki/Tierra" alt="Tierra" target="_blank">
+        <area shape="circle" coords="400,250,40" href="https://es.wikipedia.org/wiki/Marte_(planeta)" alt="Marte" target="_blank">
+        <area shape="circle" coords="600,250,70" href="https://es.wikipedia.org/wiki/J%C3%BApiter" alt="Júpiter" target="_blank">
+        <area shape="circle" coords="920,250,50" href="https://es.wikipedia.org/wiki/Saturno" alt="Saturno" target="_blank">
+        <area shape="circle" coords="920,250,50" href="https://es.wikipedia.org/wiki/Urano_(planeta)" alt="Urano" target="_blank">
+        <area shape="circle" coords="1050,250,50" href="https://es.wikipedia.org/wiki/Neptuno" alt="Neptuno" target="_blank">
+    </map>
 </body>
 </html>

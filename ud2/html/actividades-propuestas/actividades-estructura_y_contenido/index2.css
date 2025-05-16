@@ -1,0 +1,17 @@
+        /* IMAGEN */
+        .image-container {
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente si es necesario */
+            width: 100%; /* Ajusta al ancho del contenedor padre */
+        }
+
+        .image-container img {
+            max-width: 80%; /* Ajusta la imagen al 80% del contenedor */
+            height: auto; /* Mantiene la proporción */
+            border-radius: 10px; /* Bordes redondeados opcionalmente */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Sombra opcional */
+        }
+        h3 {
+            text-align: center;
+        }

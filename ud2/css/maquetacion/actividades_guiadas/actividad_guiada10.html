@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>actividad_guiada10</title>
+    <style>
+        main, header, section, aside, footer {
+            margin: 0px;
+            padding: 5em;
+            border: 1px solid rgb(29, 28, 28);
+            color: white;
+        }
+        .main {
+            background-color: #f90000;
+        }
+        .header {
+            background-color: #13245f;
+        }
+        .hero {
+            background-color: #ff9900;
+        }
+
+        .content {
+            background-color: #33cc33;
+        }
+
+        .sidebar {
+            background-color: #3399ff;
+        }
+
+        .footer {
+            background-color: #990099;
+        }
+        .flex-container {
+            display: flex; /* Hace que el contenedor use flexbox */
+        }
+
+        .content {
+            flex: 1; /* Ocupa el espacio restante */
+            background-color: lightblue;
+            padding: 20px;
+        }
+
+        .sidebar {
+            flex: 0 0 320px; /* No se expande, no se encoge, tiene 320px */
+            background-color: lightcoral;
+            padding: 20px;
+        }
+
+        /* Media query para pantallas mayores a 640px */
+        @media (max-width: 640px) {
+            .flex-container {
+                flex-direction: column; /* Hace que los elementos se apilen */
+            }
+        }
+    </style>
+</head>
+<body>
+    <main class="main">
+        <header class="header">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dapibus libero metus, quis placerat eros varius vitae. Donec pretium sit amet purus et semper. Duis vehicula eu enim in facilisis. Mauris ligula leo, commodo sit amet interdum non, volutpat in lacus. Nam nec metus auctor turpis facilisis rhoncus. Maecenas imperdiet diam ullamcorper rhoncus porta. Nullam ultrices ultrices pellentesque. Donec feugiat vitae diam sed sollicitudin. Donec imperdiet mauris vel lorem sagittis porta. Quisque congue vitae quam eget vulputate. Quisque ornare imperdiet risus sed tincidunt. Morbi nibh sapien, sagittis a mollis vel, ultrices nec turpis. Proin iaculis pretium convallis.
+        </header>
+        <section class="hero">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dapibus libero metus, quis placerat eros varius vitae. Donec pretium sit amet purus et semper. Duis vehicula eu enim in facilisis. Mauris ligula leo, commodo sit amet interdum non, volutpat in lacus. Nam nec metus auctor turpis facilisis rhoncus. Maecenas imperdiet diam ullamcorper rhoncus porta. Nullam ultrices ultrices pellentesque. Donec feugiat vitae diam sed sollicitudin. Donec imperdiet mauris vel lorem sagittis porta. Quisque congue vitae quam eget vulputate. Quisque ornare imperdiet risus sed tincidunt. Morbi nibh sapien, sagittis a mollis vel, ultrices nec turpis. Proin iaculis pretium convallis.
+        </section>
+        <div class="flex-container">
+            <section class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dapibus libero metus, quis placerat eros varius vitae. Donec pretium sit amet purus et semper. Duis vehicula eu enim in facilisis. Mauris ligula leo, commodo sit amet interdum non, volutpat in lacus. Nam nec metus auctor turpis facilisis rhoncus. Maecenas imperdiet diam ullamcorper rhoncus porta. Nullam ultrices ultrices pellentesque. Donec feugiat vitae diam sed sollicitudin. Donec imperdiet mauris vel lorem sagittis porta. Quisque congue vitae quam eget vulputate. Quisque ornare imperdiet risus sed tincidunt. Morbi nibh sapien, sagittis a mollis vel, ultrices nec turpis. Proin iaculis pretium convallis.
+            </section>
+            <aside class="sidebar">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dapibus libero metus, quis placerat eros varius vitae. Donec pretium sit amet purus et semper. Duis vehicula eu enim in facilisis. Mauris ligula leo, commodo sit amet interdum non, volutpat in lacus. Nam nec metus auctor turpis facilisis rhoncus. Maecenas imperdiet diam ullamcorper rhoncus porta. Nullam ultrices ultrices pellentesque. Donec feugiat vitae diam sed sollicitudin. Donec imperdiet mauris vel lorem sagittis porta. Quisque congue vitae quam eget vulputate. Quisque ornare imperdiet risus sed tincidunt. Morbi nibh sapien, sagittis a mollis vel, ultrices nec turpis. Proin iaculis pretium convallis.
+            </aside>
+        </div>
+        <footer class="footer">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam dapibus libero metus, quis placerat eros varius vitae. Donec pretium sit amet purus et semper. Duis vehicula eu enim in facilisis. Mauris ligula leo, commodo sit amet interdum non, volutpat in lacus. Nam nec metus auctor turpis facilisis rhoncus. Maecenas imperdiet diam ullamcorper rhoncus porta. Nullam ultrices ultrices pellentesque. Donec feugiat vitae diam sed sollicitudin. Donec imperdiet mauris vel lorem sagittis porta. Quisque congue vitae quam eget vulputate. Quisque ornare imperdiet risus sed tincidunt. Morbi nibh sapien, sagittis a mollis vel, ultrices nec turpis. Proin iaculis pretium convallis.
+        </footer>
+    </main>
+</body>
+</html>

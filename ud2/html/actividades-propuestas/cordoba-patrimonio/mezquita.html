@@ -1,66 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
-<!--Cabecera-->
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Córdoba ciudad patrimonio">
-    <meta name="keywords" content="Tursimo, patrimonio, viajes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Córdoba Ciudad Patrimonio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<!--Cuerpo-->
 <body>
     <header>
-         <h1>Córdoba Ciudad Patrimonio</h1>
-         <a id="top"><img src="Imagenes/Mezquita.jpg" height="1000" width="1500"></a>
+        <div class="logo"><img src="logohtml.jpg" width="50" height="50" alt="Logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="mezquita.html">La Mezquita</a></li>
+                <li><a href="casco_historico.html">Casco Histórico</a></li>
+                <li><a href="los_patios.html">Los Patios</a></li>
+                <li><a href="medina_azahara.html">Medina Azahara</a></li> 
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar...">
+            <button>🔍</button>
+        </div>
     </header>
-    <nav>
-       <ul>
-        <li><a href="index.html">Inicio</a> |</li>
-        <li><a href="mezquita.html">La Mezquita</a> |</li>
-        <li><a href="casco_historico.html" >Casco Histórico</a> |</li>
-        <li><a href="los_patios.html" >Los Patios</a> |</li>
-        <li><a href="medina_azahara.html">Medina Azahara</a> |</li> 
-        <li><a href="contactos.html">Contacto</a>|</li>
-        </ul>
-    </nav>
     <main>
         <section>
             <article>
-                <h2>La Mezquita</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elementum, risus eu finibus varius, eros ipsum feugiat erat, vel tincidunt tellus sapien sit amet sem. Pellentesque porta nec orci id tincidunt. Nullam dapibus gravida magna molestie porttitor. Sed sit amet egestas turpis. Aliquam ut rutrum enim. Nunc venenatis pharetra tortor sit amet elementum. Suspendisse nisl justo, maximus quis hendrerit vel, pharetra ut sem. Nulla aliquam quam a pretium blandit. Nulla mollis eros et erat malesuada finibus. Curabitur convallis, odio id dapibus sollicitudin, mauris lorem consectetur odio, at mattis risus felis sodales nunc. Nulla rutrum sagittis sodales. Integer eu lacus pharetra, porttitor arcu molestie, placerat felis. Nullam cursus suscipit dui. Donec pretium quam lorem, quis ullamcorper neque placerat id. Morbi ultricies dui justo, tempor gravida sem ultrices quis.
-                </p>
-                <p>
-                    Nunc imperdiet metus purus, facilisis finibus quam convallis ut. Cras et laoreet dolor, vitae lobortis nisl. Phasellus vulputate ut quam et tristique. Nullam sed leo dictum, cursus leo sed, tristique sapien. Nunc diam sapien, tincidunt non sollicitudin in, ultricies quis ex. Morbi condimentum justo quis turpis fringilla ultrices. In scelerisque felis in lacus fermentum placerat. Mauris nec neque magna. Mauris vitae lobortis dui. Donec pretium in est vel mollis.
-                </p>
-                <p>    
-                    Curabitur gravida, nibh eget dictum malesuada, neque justo pulvinar lacus, in sagittis lorem enim vel massa. Maecenas porta, mauris eget consequat sagittis, mauris nulla lacinia nisi, et pulvinar tellus lacus nec justo. Integer ullamcorper sapien et ante finibus rutrum. Curabitur pretium dolor non neque iaculis viverra. Morbi vitae condimentum eros, id accumsan nisl. Nulla facilisi. Sed quam lacus, fringilla sit amet risus vel, facilisis rutrum nibh.
-                </p>
-                <p>
-                    Pellentesque tempus tortor eu tincidunt cursus. Etiam rhoncus vehicula lectus, ut dictum velit elementum eget. Quisque facilisis dolor eget convallis faucibus. Praesent eget orci dignissim, gravida magna sit amet, finibus lectus. Aliquam hendrerit, justo ac mattis fringilla, mauris tortor auctor nunc, non tincidunt augue mi vel nisi. Curabitur malesuada dictum urna vel congue. Donec eget nisl sit amet odio mattis tempor a ut ante.
-                </p>
-                <p>
-                    Sed feugiat congue lectus, sollicitudin maximus ipsum venenatis ut. Proin elementum sit amet dui in mollis. Etiam nec ullamcorper justo. Pellentesque ornare, nunc sit amet ultrices dapibus, mauris velit porta dui, cursus bibendum lectus dui non nisl. In scelerisque interdum neque, ut faucibus elit. Cras feugiat felis a augue ullamcorper tincidunt. Nunc pellentesque ex ipsum, nec iaculis nunc rhoncus sed.
-                </p>
-                <p>
-                    Sed feugiat congue lectus, sollicitudin maximus ipsum venenatis ut. Proin elementum sit amet dui in mollis. Etiam nec ullamcorper justo. Pellentesque ornare, nunc sit amet ultrices dapibus, mauris velit porta dui, cursus bibendum lectus dui non nisl. In scelerisque interdum neque, ut faucibus elit. Cras feugiat felis a augue ullamcorper tincidunt. Nunc pellentesque ex ipsum, nec iaculis nunc rhoncus sed.
-                </p>
+                <h2 id="top">Mezquita-Catedral de Córdoba</h2>
+                <p>La Mezquita-Catedral de Córdoba es uno de los monumentos más impresionantes de España y un símbolo del arte islámico. Construida en el siglo VIII durante el dominio musulmán, fue ampliada en varias ocasiones hasta convertirse en una de las mezquitas más grandes del mundo. Tras la Reconquista en 1236, se convirtió en catedral cristiana, fusionando estilos islámicos y góticos. Su icónico bosque de columnas y arcos rojiblancos la hacen única. Es Patrimonio de la Humanidad y una visita imprescindible en Córdoba.</p>
             </article>
             <article>
-                Contenido noticia 2
-                
+                <h2>Horarios y precios</h2>
+                <section>
+                    <h3>Horarios de visita</h3>
+                    <p><strong>Marzo a octubre:</strong></p>
+                    <ul>
+                        <li>Lunes a sábado: 10:00 a 19:00 h.</li>
+                        <li>Domingos y festivos religiosos: 8:30 a 11:30 h y 15:00 a 19:00 h.</li>
+                    </ul>
+                    <p><strong>Noviembre a febrero:</strong></p>
+                    <ul>
+                        <li>Lunes a sábado: 10:00 a 18:00 h.</li>
+                        <li>Domingos y festivos religiosos: 8:30 a 11:30 h y 15:00 a 18:00 h.</li>
+                    </ul>
+                    <p>Es importante destacar que durante las celebraciones litúrgicas, el acceso turístico puede estar limitado.</p>
+                    
+                    <h3>Precios de entrada</h3>
+                    <ul>
+                        <li><strong>Entrada general:</strong> 13 euros.</li>
+                        <li><strong>Entrada reducida (10 euros):</strong> Para mayores de 65 años, estudiantes de 15 a 26 años y titulares del Carnet Joven.</li>
+                        <li><strong>Entrada reducida (7 euros):</strong> Para niños de 10 a 14 años, personas con discapacidad de hasta el 64% y adultos miembros de familias numerosas.</li>
+                        <li><strong>Entrada gratuita:</strong> Para niños menores de 10 años acompañados por un adulto con entrada válida.</li>
+                    </ul>
+                    <p>Las entradas pueden adquirirse en la taquilla del monumento el día de la visita.</p>
+                    <p>Para una experiencia más enriquecedora, se ofrecen visitas guiadas en varios idiomas.</p>
+                    <p>Se recomienda adquirir las entradas con antelación, especialmente en temporadas altas, para garantizar el acceso y evitar esperas prolongadas.</p>
+                    <p>Visitar la Mezquita-Catedral de Córdoba es una oportunidad única para apreciar la riqueza histórica y arquitectónica de este monumento singular.</p>
+                </section>
             </article>
         </section>
+        <img src="Imagenes/1.jpg" width="640" height="360" alt="Imagen 1">
+        <img src="Imagenes/2.jpg" width="640" height="360" alt="Imagen 2">
+        <img src="Imagenes/Mezquita.jpg" width="640" height="360" alt="Imagen 3">
+        <img src="Imagenes//58195626a.jpg" width="640" height="360" alt="Imagen 4">
         <aside>
-            Agenda
-            Publicidad
+            <h3>Enlace de interés</h3>
+            <br>
+            <a href="https://www.turismodecordoba.org/" target="_blank">Turismo de Córdoba</a>
+            <br><br>
+            <h3>Descargas</h3>
+            <br>
+            <a href="Documentos/plano.pdf" download="plano">Plano de Córdoba</a>
         </aside>
+    <br>
     </main>
-    <footer>
-        <small>&copy; Todos los derechos...</small>
-        <address>Córdoba Spain</address>
+    <a href="#top"><img src="Imagenes/Flecha.png" width="50px" height="50px"></a>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Todos los derechos reservados.</p>
+            <p>Córdoba, España</p>
+            <p><a href="aviso_legal.html">Aviso Legal</a> | <a href="politica_priv.html">Política de Privacidad</a> | <a href="contactos.html">Contacto</a></p>
+        </div>
     </footer>
-    <a href="#top"><img src="Imagenes/Flecha.png" width="100" height="100"></a>   
 </body>
-</html> 
+</html>

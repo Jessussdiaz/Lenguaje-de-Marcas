@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Actividades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-left: 5px solid #007bff;
+            background: #eef5ff;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        .emoji {
+            width: 2em; 
+            height: 2em;
+            vertical-align: middle; 
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <svg width="80" height="80" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Fondo circular blanco con borde azul claro -->
+        <circle cx="100" cy="100" r="95" fill="white" stroke="#ADD8E6" stroke-width="5"/>
+        
+        <!-- Imagen insertada en el centro -->
+        <image href="../ud3/23.jpg" x="50" y="50" width="100" height="100" clip-path="url(#clip-circle)"/>
+    </svg>
+    <div class="container">
+        <h1>Dashboard de Actividades</h1>
+
+        <div class="section">
+            <h2>Córdoba Patrimonio</h2>
+            <ul>
+                <li><a href="html/actividades-propuestas/cordoba-patrimonio/index.html"> <img src="cordoba_emoji.png" class="emoji"> Córdoba Patrimonio </a></li>
+            </ul>
+        </div>
+        <div class="section">
+            <h2>Recetas de la abuela</h2>
+            <ul>
+                <li><a href="html/actividades-propuestas/actividades-estructura_y_contenido/actividad-2.html"> <img src="abuela_cocinando_emoji.png" class="emoji"> Recetas de la abuela </a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📜 Archivos HTML</h2>
+            <ul>
+                <li><a href="html/">📁 Carpeta de HTML</a></li>
+                <li><a href="Unidad_2_Html.pdf" target="_blank">📄 Ver Unidad 2</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>🎨 Recursos de Estilo</h2>
+            <ul>
+                <li><a href="css/">📁 Carpeta de CSS</a></li>
+                <li><a href="Unidad_2_Css.pdf" target="_blank">📄 Ver Unidad 2</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>📜 Archivos XML</h2>
+            <ul>
+                <li><a href="../ud3/">📁 Carpeta de XML</a></li>
+                <li><a href="../ud3/ud7_XML_Definición_Validación.pdf" target="_blank">📄 Ver Unidad 3</a></li>
+            </ul>
+        </div>
+    </div>
+    <button onclick="goBack()">Volver</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>

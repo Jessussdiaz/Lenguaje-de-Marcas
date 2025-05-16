@@ -4,61 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Córdoba Ciudad Patrimonio</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        <h1>Córdoba Ciudad Patrimonio</h1>
-        <a id="top"><img src="Imagenes/Mezquita.jpg" height="1000" width="1500"></a>
-   </header>
-   <nav>
-      <ul>
-       <li><a href="index.html">Inicio</a> |</li>
-       <li><a href="mezquita.html">La Mezquita</a> |</li>
-       <li><a href="casco_historico.html" >Casco Histórico</a> |</li>
-       <li><a href="los_patios.html" >Los Patios</a> |</li>
-       <li><a href="medina_azahara.html">Medina Azahara</a> |</li> 
-       <li><a href="contactos.html">Contacto</a>|</li>
-       </ul>
-   </nav>
-   <main>
-       <section>
-           <article>
-               <h2>Casco Historico</h2>
-               <p>
-                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elementum, risus eu finibus varius, eros ipsum feugiat erat, vel tincidunt tellus sapien sit amet sem. Pellentesque porta nec orci id tincidunt. Nullam dapibus gravida magna molestie porttitor. Sed sit amet egestas turpis. Aliquam ut rutrum enim. Nunc venenatis pharetra tortor sit amet elementum. Suspendisse nisl justo, maximus quis hendrerit vel, pharetra ut sem. Nulla aliquam quam a pretium blandit. Nulla mollis eros et erat malesuada finibus. Curabitur convallis, odio id dapibus sollicitudin, mauris lorem consectetur odio, at mattis risus felis sodales nunc. Nulla rutrum sagittis sodales. Integer eu lacus pharetra, porttitor arcu molestie, placerat felis. Nullam cursus suscipit dui. Donec pretium quam lorem, quis ullamcorper neque placerat id. Morbi ultricies dui justo, tempor gravida sem ultrices quis.
-               </p>
-               <p>
-                   Nunc imperdiet metus purus, facilisis finibus quam convallis ut. Cras et laoreet dolor, vitae lobortis nisl. Phasellus vulputate ut quam et tristique. Nullam sed leo dictum, cursus leo sed, tristique sapien. Nunc diam sapien, tincidunt non sollicitudin in, ultricies quis ex. Morbi condimentum justo quis turpis fringilla ultrices. In scelerisque felis in lacus fermentum placerat. Mauris nec neque magna. Mauris vitae lobortis dui. Donec pretium in est vel mollis.
-               </p>
-               <p>    
-                   Curabitur gravida, nibh eget dictum malesuada, neque justo pulvinar lacus, in sagittis lorem enim vel massa. Maecenas porta, mauris eget consequat sagittis, mauris nulla lacinia nisi, et pulvinar tellus lacus nec justo. Integer ullamcorper sapien et ante finibus rutrum. Curabitur pretium dolor non neque iaculis viverra. Morbi vitae condimentum eros, id accumsan nisl. Nulla facilisi. Sed quam lacus, fringilla sit amet risus vel, facilisis rutrum nibh.
-               </p>
-               <p>
-                   Pellentesque tempus tortor eu tincidunt cursus. Etiam rhoncus vehicula lectus, ut dictum velit elementum eget. Quisque facilisis dolor eget convallis faucibus. Praesent eget orci dignissim, gravida magna sit amet, finibus lectus. Aliquam hendrerit, justo ac mattis fringilla, mauris tortor auctor nunc, non tincidunt augue mi vel nisi. Curabitur malesuada dictum urna vel congue. Donec eget nisl sit amet odio mattis tempor a ut ante.
-               </p>
-               <p>
-                   Sed feugiat congue lectus, sollicitudin maximus ipsum venenatis ut. Proin elementum sit amet dui in mollis. Etiam nec ullamcorper justo. Pellentesque ornare, nunc sit amet ultrices dapibus, mauris velit porta dui, cursus bibendum lectus dui non nisl. In scelerisque interdum neque, ut faucibus elit. Cras feugiat felis a augue ullamcorper tincidunt. Nunc pellentesque ex ipsum, nec iaculis nunc rhoncus sed.
-               </p>
-               <p>
-                   Sed feugiat congue lectus, sollicitudin maximus ipsum venenatis ut. Proin elementum sit amet dui in mollis. Etiam nec ullamcorper justo. Pellentesque ornare, nunc sit amet ultrices dapibus, mauris velit porta dui, cursus bibendum lectus dui non nisl. In scelerisque interdum neque, ut faucibus elit. Cras feugiat felis a augue ullamcorper tincidunt. Nunc pellentesque ex ipsum, nec iaculis nunc rhoncus sed.
-               </p>
-           </article>
-           <article>
-               Contenido noticia 2
-               
-           </article>
-       </section>
-       <aside>
-           Agenda
-           Publicidad
-       </aside>
-   </main>
-   <footer>
-       <small>&copy; Todos los derechos...</small>
-       <address>Córdoba Spain</address>
-   </footer>
-   <a href="#top"><img src="Imagenes/Flecha.png" width="100" height="100"></a>   
-</body>
-</html> 
+        <div class="logo"><img src="logohtml.jpg" width="50" height="50" alt="Logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="mezquita.html">La Mezquita</a></li>
+                <li><a href="casco_historico.html">Casco Histórico</a></li>
+                <li><a href="los_patios.html">Los Patios</a></li>
+                <li><a href="medina_azahara.html">Medina Azahara</a></li> 
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar...">
+            <button>🔍</button>
+        </div>
+    </header>
+    <main>
+        <section>
+            <article>
+                <section id="casco-historico">
+                    <h2>Casco Histórico de Córdoba</h2>
+                    <p>
+                        El Casco Histórico de Córdoba es uno de los más grandes y mejor conservados de Europa. 
+                        Declarado Patrimonio de la Humanidad por la UNESCO, alberga calles estrechas, plazas 
+                        encantadoras y monumentos emblemáticos que reflejan su rica historia multicultural.
+                    </p>
+                    <p>
+                        Entre sus lugares más destacados se encuentran la <strong>Mezquita-Catedral</strong>, 
+                        el <strong>Puente Romano</strong>, la <strong>Judería</strong> con su sinagoga, 
+                        y los famosos <strong>patios cordobeses</strong>. Pasear por sus calles es sumergirse 
+                        en siglos de historia y cultura.
+                    </p>
+                </section>
+            </article>
+            <article>
+                <h2>Le mostramos un mapa interactivo para que puedan navegar en él.</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3173.673626549907!2d-4.781557684693001!3d37.87857997974001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6cdf5e5b5c0d8b%3A0x2c4e18d841f5c5a4!2sCasco%20Hist%C3%B3rico%20de%20C%C3%B3rdoba!5e0!3m2!1ses!2ses!4v1616490372187!5m2!1ses!2ses" width="450" height="250" style="border:0">
+                </iframe>
+            </article>
+            <br>
+        </section>
+        <img src="Imagenes/casco-antiguo-de-cordoba.jpg" width="640" height="360" alt="Imagen 1">
+        <img src="Imagenes/ciudad-de-cordoba-casco-historico.jpg" width="640" height="360" alt="Imagen 2">
+        <img src="Imagenes/Casco-hiscorico-de-Córdoba.jpg" width="640" height="360" alt="Imagen 3">
+        <img src="Imagenes/free-tour-casco-historico-cordoba_visita-guiada_alcazar-reyes-catolicos_gratuita_gratis_andalucia_buendia-tours.jpg" width="640" height="360" alt="Imagen 4">
+        <aside>
+            <article>
+                <h3>¿Qué hacer en el Casco Histórico?</h3>
+                    <ul>
+                        <li>Pasear por la <strong>Calleja de las Flores</strong> y sacar una foto con la Mezquita-Catedral de fondo.</li>
+                        <li>Visitar la <strong>Sinagoga</strong>, una de las pocas medievales que quedan en España.</li>
+                        <li>Disfrutar de la gastronomía en alguna taberna típica.</li>
+                        <li>Explorar el <strong>Alcázar de los Reyes Cristianos</strong> y sus impresionantes jardines.</li>
+                    </ul>
+            </article>
+            <h3>Enlace de interés</h3>
+            <a href="https://www.turismodecordoba.org/" target="_blank">Turismo de Córdoba</a>
+            <br>
+            <h3>Descargas</h3>
+            <br>
+            <a href="Documentos/plano.pdf" download="plano">Plano de Córdoba</a>
+        </aside>
+        <br>
+    </main>
+    <a href="#top"><img src="Imagenes/Flecha.png" width="50px" height="50px"></a>
+    <footer class="footer">
+    <div class="footer-content">
+        <p>&copy; 2025 Todos los derechos reservados.</p>
+        <p>Córdoba, España</p>
+        <p><a href="aviso_legal.html">Aviso Legal</a> | <a href="politica_priv.html">Política de Privacidad</a> | <a href="contactos.html">Contacto</a></p>
+    </div>
+    </footer>
 </body>
 </html>

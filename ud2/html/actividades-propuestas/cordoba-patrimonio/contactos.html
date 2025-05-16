@@ -4,110 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Córdoba Ciudad Patrimonio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        .contacto-container {
-            display: flex;
-            flex-wrap: wrap;
-            min-height: 100vh;
-        }
-        
-        .contacto-formulario {
-            flex: 1;
-            padding: 40px;
-            background-color: #fff;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        
-        .contacto-formulario h2 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        
-        .contacto-formulario p {
-            margin: 5px 0;
-            font-size: 16px;
-        }
-        
-        .contacto-formulario form {
-            margin-top: 20px;
-        }
-        
-        .contacto-formulario label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-        
-        .contacto-formulario input,
-        .contacto-formulario textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            font-size: 14px;
-        }
-        
-        .contacto-formulario button {
-            background-color: #000;
-            color: #fff;
-            padding: 10px 20px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-size: 16px;
-        }
-        
-        .contacto-formulario button:hover {
-            background-color: #444;
-        }
-        
-        .contacto-imagen {
-            flex: 1;
-            background-color: #f4f4f4;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        
-        .contacto-imagen img {
-            max-width: 100%;
-            height: auto;
-            object-fit: cover;
-        }
-    </style>
+    <link rel="stylesheet" href="index_contacto.css">
 </head>
 <body>
-   <div class="contacto-container">
-    <div class="contacto-formulario">
-        <h2>CONTACTO</h2>
-        <p><strong>Email:</strong> jesdiamat04@gmail.com</p>
-        <p><strong>Teléfono:</strong> 614859417</p>
-        <form action="#" method="post">
-            <label for="nombre">Nombre *</label>
-            <input type="text" id="nombre" name="nombre" required>
-            
-            <label for="email">Email *</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="mensaje">Mensaje</label>
-            <textarea id="mensaje" name="mensaje" rows="4"></textarea>
-            
-            <button type="submit">Enviar</button>
-        </form>
+    <header class="header">
+        <div class="logo">
+            <img src="logohtml.jpg" width="50" height="50" alt="Logo">
         </div>
-    <div class="contacto-imagen">
-        <a href="index.html">
-        <img src="Imagenes/fotocontacto.jfif" >
-    </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="mezquita.html">La Mezquita</a></li>
+                <li><a href="casco_historico.html">Casco Histórico</a></li>
+                <li><a href="los_patios.html">Los Patios</a></li>
+                <li><a href="medina_azahara.html">Medina Azahara</a></li>
+            </ul>
+        </nav>
+        <div class="search-box">
+            <input type="text" placeholder="Buscar...">
+            <button>🔍</button>
+        </div>
+    </header>
+
+    <div class="contacto-container">
+        <div class="contacto-formulario">
+            <h2>CONTACTO</h2>
+            <p><strong>Email:</strong> <a href="mailto:contacto@cordobapatrimonio.com">contacto@cordobapatrimonio.com</a></p>
+            <p><strong>Teléfono:</strong> 614859417</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre *</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="contacto-imagen">
+            <a href="index.html">
+                <img src="Imagenes/fotocontacto.jfif" alt="Imagen de contacto">
+            </a>
+        </div>
     </div>
-</div>
+</body>
+</html>

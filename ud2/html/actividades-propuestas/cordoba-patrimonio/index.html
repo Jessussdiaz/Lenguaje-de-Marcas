@@ -1,84 +1,78 @@
 <!DOCTYPE html>
 <html lang="es">
-<!--Cabecera-->
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Córdoba ciudad patrimonio">
-    <meta name="keywords" content="Tursimo, patrimonio, viajes">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Córdoba Ciudad Patrimonio</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index2.css">
 </head>
-<!--Cuerpo-->
 <body>
     <header>
-         <h1>Córdoba Ciudad Patrimonio</h1>
+        <div class="logo"><img src="logohtml.jpg" width="50" height="50" alt="Logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="mezquita.html">La Mezquita</a></li>
+                <li><a href="casco_historico.html">Casco Histórico</a></li>
+                <li><a href="los_patios.html">Los Patios</a></li>
+                <li><a href="medina_azahara.html">Medina Azahara</a></li> 
+            </ul>
+        </nav>
+        <div class="search-container">
+            <input type="text" placeholder="Buscar...">
+            <button>🔍</button>
+        </div>
     </header>
-    <nav>
-    <ul>
-       <li><a href="index.html">Inicio</a> |</li>
-       <li><a href="mezquita.html">La Mezquita</a> |</li>
-       <li><a href="casco_historico.html" >Casco Histórico</a> |</li>
-       <li><a href="los_patios.html" >Los Patios</a> |</li> 
-       <li><a href="medina_azahara.html">Medina Azahara</a> |</li>
-       <li><a href="contactos.html">Contacto</a> |</li>
-    </ul>
-    </nav>
     <main>
         <section>
             <article>
-                <a id="top"><h2>Contenido noticia 1</h2></a>
-                <p>
-                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta nunc quis sapien fringilla cursus. Sed facilisis luctus velit, id iaculis dolor sagittis eu. Morbi faucibus fermentum sapien sed luctus. Pellentesque id lorem porta, fringilla diam a,<cite>pharetra sapien.</cite> Morbi porttitor lorem eu pellentesque iaculis. Duis sed pellentesque sapien. Ut vel quam condimentum, viverra mauris pellentesque, tempor tellus. Aenean vestibulum sem et quam convallis,<strong>eget auctor purus. </strong>
-                </p>
-                <p>
-                    Nunc imperdiet metus purus, facilisis finibus quam convallis ut. Cras et laoreet dolor, vitae lobortis nisl. Phasellus vulputate ut quam et tristique. Nullam sed leo dictum, cursus leo sed, tristique sapien. Nunc diam sapien, tincidunt non sollicitudin in, ultricies quis ex. Morbi condimentum justo quis turpis fringilla ultrices. In scelerisque felis in lacus fermentum placerat. Mauris nec neque magna. Mauris vitae lobortis dui. Donec pretium in est vel mollis.
-                </p>
-                <p>    
-                    Curabitur gravida, nibh eget dictum malesuada, neque justo pulvinar lacus, in sagittis lorem enim vel massa. Maecenas porta, mauris eget consequat sagittis, mauris nulla lacinia nisi, et pulvinar tellus lacus nec justo. Integer ullamcorper sapien et ante finibus rutrum. Curabitur pretium dolor non neque iaculis viverra. Morbi vitae condimentum eros, id accumsan nisl. Nulla facilisi. Sed quam lacus, fringilla sit amet risus vel, facilisis rutrum nibh.
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis facilisis placerat. Ut est mi, ullamcorper at nisl sed, ullamcorper fermentum leo. Integer molestie at neque ut cursus. Vivamus elementum tristique tortor, a aliquam sapien luctus non. Mauris a malesuada nisl. Sed aliquam urna leo, ac elementum nulla sodales vitae. Curabitur metus sem, blandit non accumsan id, feugiat ut massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur lectus id est laoreet, in lacinia odio semper. Suspendisse condimentum urna ut iaculis semper.
+                <div class="contenedor-central">
+                    <a href="semana_santa.html" class="contenedor">
+                        <img src="Imagenes/semana_santa/portada.jpg" alt="Semana Santa">
+                        <div class="overlay">SEMANA SANTA</div>
+                    </a>                
 
-                    Etiam molestie interdum diam, sed sodales ligula efficitur at. Vivamus vel consequat ante. Pellentesque cursus turpis ac est viverra fermentum. Vestibulum a metus vel est pharetra dapibus. Morbi tristique odio a scelerisque gravida. In id leo fermentum felis posuere posuere non vel justo. Morbi eu ornare velit, eget ullamcorper magna. Praesent ultricies at lectus ut fermentum. Sed congue justo sed vulputate lobortis. Maecenas leo eros, auctor a dui at, vulputate vehicula dui. Donec eu metus euismod, facilisis tellus ac, tristique augue. Maecenas eu vulputate felis, eu rhoncus sem. Nullam lacus lorem, aliquam ut interdum maximus, malesuada at nunc. Donec quis congue quam.
+                    <a href="../../actividades-propuestas/actividades-estructura_y_contenido/actividad-2.html" class="contenedor">
+                        <img src="Imagenes/gastronomia/1580761555.jpg" alt="Gastronomía">
+                        <div class="overlay">Recetas de la Abuela</div>
+                    </a>
 
-                    Donec venenatis sagittis commodo. Fusce elit velit, congue quis nulla quis, faucibus tempus mi. In a pellentesque libero, vel rutrum purus. Duis vitae sem vitae ante sollicitudin elementum ut eget mauris. Sed metus enim, tincidunt sit amet convallis ornare, sodales eu enim. Phasellus sagittis justo ut dapibus consectetur. Nulla facilisi. Vestibulum malesuada tortor in nisl faucibus, vel euismod justo porttitor. Integer mattis eros non orci congue, id interdum dolor bibendum.
+                    <a href="fiestas.html" class="contenedor">
+                        <img src="Imagenes/fiestas/de2f1deb-cf6e-4bad-8d1a-154450b57363_16-9-aspect-ratio_default_0.jpg" alt="Fiestas">
+                        <div class="overlay">Fiestas populares</div>
+                    </a>
 
-                    In hac habitasse platea dictumst. Ut quis lectus non diam imperdiet semper at fermentum purus. Donec facilisis enim a ligula ultrices pellentesque. Proin pellentesque in quam at ultricies. Suspendisse potenti. Integer egestas suscipit lorem, non sollicitudin enim. Pellentesque velit nulla, euismod nec pellentesque nec, mattis at neque.
-
-                    Phasellus eleifend pellentesque eleifend. Nam molestie sagittis lectus sed vehicula. Donec suscipit, enim sit amet laoreet malesuada, sem felis tempus ipsum, eget condimentum odio odio quis ante. Donec scelerisque sed augue in pharetra. Donec lorem nunc, venenatis quis odio tristique, maximus vulputate odio. In maximus pretium sem vel tempor. Maecenas pretium laoreet tellus, vitae viverra eros convallis sit amet. Vestibulum porttitor arcu et varius fermentum. Nunc non tortor risus. Mauris mattis fringilla tortor, ut vehicula ex tempor ac. Proin porttitor auctor turpis non volutpat.
-
-                    Duis tincidunt elit nec justo dapibus, et auctor nisl iaculis. Pellentesque metus purus, hendrerit a venenatis ac, rhoncus quis mi. Sed euismod, velit eget pretium dapibus, urna eros blandit eros, quis pellentesque ex est id nunc. Vivamus auctor lacinia condimentum. Duis vitae sagittis risus. Cras non ligula vel massa dictum bibendum. Aenean posuere nulla vel metus convallis, in finibus lorem elementum. Vestibulum accumsan, eros eu rhoncus vulputate, nunc arcu consequat nulla, ut varius nisl arcu vel odio. Nam suscipit ac nulla a ornare. Phasellus tempor erat urna, sit amet iaculis magna malesuada a. Sed quis cursus turpis. In aliquet dignissim iaculis. Aliquam consectetur accumsan erat, eu elementum elit scelerisque eget. Morbi vestibulum quam nisi, ut pretium nisl viverra at. Vivamus pharetra aliquam lacus.
-
-                    Donec dignissim, arcu sit amet tincidunt sollicitudin, augue justo vestibulum dui, eu vehicula nisi purus eu leo. Nulla imperdiet tellus risus, non pulvinar nisi cursus id. Maecenas at ex quis felis convallis congue. Nunc porttitor diam vitae est pulvinar condimentum. Praesent placerat laoreet tortor et blandit. Donec quis dolor in tellus consequat congue condimentum sit amet ligula. Sed interdum mi et leo facilisis venenatis. Sed eros neque, mattis quis porta id, congue in velit. Mauris suscipit lacinia nulla nec egestas. Mauris id dapibus velit, a pretium magna. Maecenas id purus enim. Etiam vulputate dolor sed consequat malesuada.
-
-                    Vivamus porttitor feugiat est, eget pharetra eros egestas suscipit. Maecenas laoreet id tellus nec feugiat. Vivamus a venenatis dui. Praesent ut aliquam lorem. Maecenas sit amet posuere odio. Sed at eros erat. Proin fringilla ligula ut elit vulputate sollicitudin. Fusce quis nibh non tellus lacinia ultrices. Nunc posuere eu risus ut dapibus. Duis quis varius tellus. Mauris vitae iaculis magna. Nam scelerisque mauris pharetra molestie commodo.
-
-                <p>
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis facilisis placerat. Ut est mi, ullamcorper at nisl sed, ullamcorper fermentum leo. Integer molestie at neque ut cursus. Vivamus elementum tristique tortor, a aliquam sapien luctus non. Mauris a malesuada nisl. Sed aliquam urna leo, ac elementum nulla sodales vitae. Curabitur metus sem, blandit non accumsan id, feugiat ut massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur lectus id est laoreet, in lacinia odio semper. Suspendisse condimentum urna ut iaculis semper.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis facilisis placerat. Ut est mi, ullamcorper at nisl sed, ullamcorper fermentum leo. Integer molestie at neque ut cursus. Vivamus elementum tristique tortor, a aliquam sapien luctus non. Mauris a malesuada nisl. Sed aliquam urna leo, ac elementum nulla sodales vitae. Curabitur metus sem, blandit non accumsan id, feugiat ut massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur lectus id est laoreet, in lacinia odio semper. Suspendisse condimentum urna ut iaculis semper.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis facilisis placerat. Ut est mi, ullamcorper at nisl sed, ullamcorper fermentum leo. Integer molestie at neque ut cursus. Vivamus elementum tristique tortor, a aliquam sapien luctus non. Mauris a malesuada nisl. Sed aliquam urna leo, ac elementum nulla sodales vitae. Curabitur metus sem, blandit non accumsan id, feugiat ut massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur lectus id est laoreet, in lacinia odio semper. Suspendisse condimentum urna ut iaculis semper.
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc lobortis facilisis placerat. Ut est mi, ullamcorper at nisl sed, ullamcorper fermentum leo. Integer molestie at neque ut cursus. Vivamus elementum tristique tortor, a aliquam sapien luctus non. Mauris a malesuada nisl. Sed aliquam urna leo, ac elementum nulla sodales vitae. Curabitur metus sem, blandit non accumsan id, feugiat ut massa. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec consectetur lectus id est laoreet, in lacinia odio semper. Suspendisse condimentum urna ut iaculis semper.
-                </p>
+                    <a href="ruta.html" class="contenedor">
+                        <img src="Imagenes/58195626a.jpg" alt="rutas">
+                        <div class="overlay">Ruta por Córdoba</div>
+                    </a>
+                </div>
             </article>
             <article>
-                Contenido noticia 2
+                <h2>Contenido noticia 2</h2>
+                <p>Más información aquí...</p>
             </article>
         </section>
+        <img src="Imagenes/1.jpg" width="640" height="360" alt="Imagen 1">
+        <img src="Imagenes/2.jpg" width="640" height="360" alt="Imagen 2">
+        <img src="Imagenes/3.jpg" width="640" height="360" alt="Imagen 3">
+        <img src="Imagenes/4.jpg" width="640" height="360" alt="Imagen 4">
         <aside>
             <h3>Enlace de interés</h3>
             <a href="https://www.turismodecordoba.org/" target="_blank">Turismo de Córdoba</a>
             <h3>Descargas</h3>
-            <a href= "Documentos/plano.pdf" download="plano">Plano de Córdoba</a>
-            <br>
-            Agenda
-            Publicidad
+            <a href="Documentos/plano.pdf" download="plano">Plano de Córdoba</a>
         </aside>
+    <br>
     </main>
-    <a href="#top">Top</a>
-    <footer>
-        <small>&copy; Todos los derechos...</small>
-        <address>Córdoba Spain</address>
+    <a href="#top"><img src="Imagenes/Flecha.png" width="50px" height="50px"></a>
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Todos los derechos reservados.</p>
+            <p>Córdoba, España</p>
+            <p><a href="aviso_legal.html">Aviso Legal</a> | <a href="politica_priv.html">Política de Privacidad</a> | <a href="contactos.html">Contacto</a></p>
+        </div>
     </footer>
-    
 </body>
 </html>

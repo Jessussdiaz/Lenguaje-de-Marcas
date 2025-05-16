@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana Santa - No Disponible</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        #countdown {
+            font-size: 24px;
+            font-weight: bold;
+            color: #8B0000;
+            margin-top: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            background-color: #8B0000;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #a52a2a;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Semana Santa - No Disponible</h1>
+        <p>Este apartado estará disponible el <strong>8 de abril</strong>.</p>
+        <p>Tiempo restante para la apertura:</p>
+        <div id="countdown"></div>
+    </div>
+
+    <script>
+        function actualizarContador() {
+            // Fecha de apertura (8 de abril del año actual a las 00:00:00)
+            const fechaApertura = new Date(new Date().getFullYear(), 3, 8, 0, 0, 0);
+            const ahora = new Date().getTime();
+            const diferencia = fechaApertura - ahora;
+
+            if (diferencia > 0) {
+                const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+                const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+                const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+                
+                document.getElementById("countdown").innerHTML = 
+                    `${dias}d ${horas}h ${minutos}m ${segundos}s`;
+            } else {
+                document.getElementById("countdown").innerHTML = "¡Ya está disponible!";
+            }
+        }
+
+        // Actualizar contador cada segundo
+        setInterval(actualizarContador, 1000);
+        actualizarContador(); // Ejecutar al cargar la página
+
+    </script>
+</body>
+</html>

@@ -1,19 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Las recetas de mi abuela</title>
+    <title>Receta 1</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        h3 {
+            text-align: center;
+        }
+    </style>
 </head>
-<body>
-    <h1>Receta 1</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta nunc quis sapien fringilla cursus. Sed facilisis luctus velit, id iaculis dolor sagittis eu. Morbi faucibus fermentum sapien sed luctus. Pellentesque id lorem porta, fringilla diam a,<cite>pharetra sapien.</cite> Morbi porttitor lorem eu pellentesque iaculis. Duis sed pellentesque sapien. Ut vel quam condimentum, viverra mauris pellentesque, tempor tellus. Aenean vestibulum sem et quam convallis,<strong>eget auctor purus. </strong></p>
-    <br>
-    <h2>Receta 2</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta nunc quis sapien fringilla cursus. Sed facilisis luctus velit, id iaculis dolor sagittis eu. Morbi faucibus fermentum sapien sed luctus. Pellentesque id lorem porta, fringilla diam a,<cite>pharetra sapien.</cite> Morbi porttitor lorem eu pellentesque iaculis. Duis sed pellentesque sapien. Ut vel quam condimentum, viverra mauris pellentesque, tempor tellus. Aenean vestibulum sem et quam convallis,<strong>eget auctor purus. </strong></p>
-    <br>
-    <h3>Receta 3</h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porta nunc quis sapien fringilla cursus. Sed facilisis luctus velit, id iaculis dolor sagittis eu. Morbi faucibus fermentum sapien sed luctus. Pellentesque id lorem porta, fringilla diam a,<cite>pharetra sapien.</cite> Morbi porttitor lorem eu pellentesque iaculis. Duis sed pellentesque sapien. Ut vel quam condimentum, viverra mauris pellentesque, tempor tellus. Aenean vestibulum sem et quam convallis,<strong>eget auctor purus. </strong></p>
+<!-- ENCABEZADO -->
+<div class="header">
+    Recetas de la Abuela
+</div>
 
+<!-- MENÚ DE NAVEGACIÓN -->
+<div class="menu">
+    <a href="../actividades-estructura_y_contenido/actividad-2.html">Receta 1</a>
+    <a href="recetas/receta2.html">Receta 2</a>
+    <a href="recetas/receta3.html">Receta 3</a>
+</div>
+
+<!-- CONTENEDOR PRINCIPAL -->
+<div class="container">
+    <div class="recipe-title">Receta 1</div>
+
+    <!-- INGREDIENTES -->
+    <div class="recipe-section">
+        <h3>Ingredientes</h3>
+        <ul class="recipe-list">
+            <li>1 kilo de filetes de pechuga (aliñados con sal y pimienta)</li>
+            <li>1 cebolla morada</li>
+            <li>7 dientes de ajo</li>
+            <li>Media cucharadita de pimentón picante</li>
+            <li>Medio vaso de brandy</li>
+            <li>1 hoja de laurel</li>
+            <li>Caldo o agua (cantidad suficiente)</li>
+            <li>Patatas fritas (para la guarnición)</li>
+        </ul>
+    </div>
+
+    <!-- INSTRUCCIONES -->
+    <div class="recipe-section">
+        <h3>Instrucciones</h3>
+        <ul class="recipe-list">            
+            <li><strong>Preparar los ingredientes:</strong> Pelar y picar los ajos y cortar la cebolla.</li>
+            <li><strong>Dorar los ajos:</strong> Sofreír los ajos en aceite caliente.</li>
+            <li><strong>Sellar los filetes:</strong> Dorar los filetes por ambos lados.</li>
+            <li><strong>Pochar la cebolla:</strong> Cocinar hasta que esté transparente.</li>
+            <li><strong>Añadir el brandy:</strong> Verter y dejar que el alcohol se evapore.</li>
+            <li><strong>Incorporar laurel y caldo:</strong> Cocinar a fuego bajo durante 20 minutos.</li>
+            <li><strong>Freír las patatas:</strong> Como guarnición, freír hasta que estén doradas.</li>
+            <li><strong>Servir:</strong> Emplatar los filetes con la salsa y patatas fritas.</li>
+        </ul>
+    </div>
+
+        <!-- VIDEO -->
+        <div class="video-section">
+            <h3>Video de la elaboración</h3>
+            <video width="100%" controls>
+                <source src="../actividades-estructura_y_contenido/Receta.mp3" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </div>
+</div>
+
+<!-- PIE DE PÁGINA -->
+<div class="footer">
+    © 2025 Recetas de Cocina | Todos los derechos reservados
+</div>
+<div class="container">
+    <h3>Redes Sociales</h3>
+    <a href="rss.xml" target="_blank"><img src="Imagenes/R.png" height="25" width="25"></a>
+</div>
 </body>
 </html>

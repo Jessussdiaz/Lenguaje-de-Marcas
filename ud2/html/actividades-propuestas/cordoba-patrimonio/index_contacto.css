@@ -1,0 +1,161 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f1e9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cabecera */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background: #a83232;
+    color: white;
+}
+
+.logo img {
+    max-width: 120px;
+}
+
+/* Menú */
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f4c542;
+}
+
+/* Buscador */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.search-container button {
+    background: #f4c542;
+    border: none;
+    padding: 8px;
+    margin-left: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
+.contacto-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.contacto-formulario {
+    flex: 1;
+    padding: 40px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacto-formulario h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contacto-formulario p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.contacto-formulario form {
+    margin-top: 20px;
+}
+
+.contacto-formulario label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contacto-formulario input,
+.contacto-formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.contacto-formulario button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contacto-formulario button:hover {
+    background-color: #444;
+}
+
+.contacto-imagen {
+    flex: 1;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacto-imagen img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .contacto-container {
+        flex-direction: column;
+    }
+    
+    .contacto-formulario {
+        padding: 20px;
+    }
+}

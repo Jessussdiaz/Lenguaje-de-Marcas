@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen de Diciembre</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E0F7FA;
+        }
+        header, footer {
+            text-align: center;
+            background-color: #B3E5FC;
+            padding: 20px;
+            border: 3px solid blue;
+        }
+        header h1 {
+            color: blue;
+        }
+        header p, footer p {
+            color: rgb(13, 0, 128);
+            font-style: italic;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px;
+            border: 3px solid blue;
+            background-color: #E1F5FE;
+        }
+        .nav {
+            width: 20%;
+            padding: 10px;
+            border-right: 3px solid blue;
+            text-align: center;
+        }
+        .nav h2 {
+            color: blue;
+        }
+        .nav a {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: black;
+        }
+        .content {
+            width: 75%;
+            padding: 10px;
+        }
+        .content h2 {
+            text-align: center;
+            color: blue;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid rgb(6, 0, 128);
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: #fce5b3;
+        }
+        td {
+            background-color: #FFFFFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>HOLA MUNDO</h1>
+        <p>nombre</p>
+    </header>
+    <div class="container">
+        <div class="nav">
+            <h2>Navegación</h2>
+            <a href="#">Formulario</a>
+        </div>
+        <div class="content">
+            <h2>Tabla</h2>
+            <table>
+                <tr>
+                    <th>Trimestre</th>
+                    <th>Mes</th>
+                    <th>notas</th>
+                </tr>
+                <tr>
+                    <td>Primero</td>
+                    <td>Septiembre</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Octubre</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Noviembre</td>
+                    <td>9</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Diciembre</td>
+                    <td>8</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <footer>
+        <p>hola mundo</p>
+    </footer>
+</body>
+</html>
