@@ -1,0 +1,21 @@
+<mascotas>
+<mascota id="1">
+<nombre>Firulais</nombre>
+<tipo>Perro</tipo>
+<raza>Labrador</raza>
+<edad>5</edad>
+<vacunas>
+<vacuna>Rabia</vacuna>
+<vacuna>Moquillo</vacuna>
+</vacunas>
+</mascota>
+<mascota id="2">
+<nombre>Misu</nombre>
+<tipo>Gato</tipo>
+<raza>Siames</raza>
+<edad>3</edad>
+<vacunas>
+<vacuna>Leucemia Felina</vacuna>
+</vacunas>
+</mascota>
+</mascotas>
