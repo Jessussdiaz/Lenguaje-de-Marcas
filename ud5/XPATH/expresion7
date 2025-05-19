@@ -1,0 +1,6 @@
+﻿<carrera id="c01">
+  <nombre>I.T. Informática</nombre>
+  <plan>2003</plan>
+  <creditos>250</creditos>
+  <centro>Escuela de Informática</centro>
+</carrera>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard de Actividades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-left: 5px solid #007bff;
+            background: #eef5ff;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+            font-weight: bold;
+        }
+        a:hover {
+            color: #0056b3;
+        }
+        .emoji {
+            width: 2em; 
+            height: 2em;
+            vertical-align: middle; 
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-align: center;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <svg width="80" height="80" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+        <!-- Fondo circular blanco con borde azul claro -->
+        <circle cx="100" cy="100" r="95" fill="white" stroke="#ADD8E6" stroke-width="5"/>
+        
+        <!-- Imagen insertada en el centro -->
+        <image link:href="lm/ud3/23.jpg" x="50" y="50" width="100" height="100" clip-path="url(#clip-circle)"/>
+    </svg>
+    <div class="container">
+        <h1>Dashboard de Actividades</h1>
+
+        <div class="section">
+            <h2>XPATH</h2>
+            <ul>
+                <li><a href="expresion1"> 📄 expresion1 </a></li>
+                <li><a href="expresion2"> 📄 expresion2 </a></li>
+                <li><a href="expresion3"> 📄 expresion3 </a></li>
+                <li><a href="expresion4"> 📄 expresion4 </a></li>
+                <li><a href="expresion5"> 📄 expresion5 </a></li>
+                <li><a href="expresion6"> 📄 expresion6 </a></li>
+                <li><a href="expresion7"> 📄 expresion7 </a></li>
+                <li><a href="expresion8"> 📄 expresion8 </a></li>
+                <li><a href="expresion9"> 📄 expresion9 </a></li>
+                <li><a href="expresion10"> 📄 expresion10 </a></li>
+                <li><a href="expresion11"> 📄 expresion11 </a></li>
+                <li><a href="expresion12"> 📄 expresion12 </a></li>
+                <li><a href="expresion13"> 📄 expresion13 </a></li>
+                <li><a href="expresion14"> 📄 expresion14 </a></li>
+                <li><a href="expresion15"> 📄 expresion15 </a></li>
+                <li><a href="expresion16"> 📄 expresion16 </a></li>
+                <li><a href="expresion17"> 📄 expresion17 </a></li>
+                <li><a href="expresion18"> 📄 expresion18 </a></li>
+                <li><a href="expresion19"> 📄 expresion19 </a></li>
+                <li><a href="expresion20"> 📄 expresion20 </a></li>
+                <li><a href="expresion21"> 📄 expresion21 </a></li>
+                <li><a href="expresion22"> 📄 expresion22 </a></li>
+                <li><a href="expresion23"> 📄 expresion23 </a></li>
+                <li><a href="expresiones_xpath_actividad_2.txt"> 📄 expresiones_xpath_actividad_2.txt </a></li>
+                <li><a href="universidad.xml"> 📄 universidad.xml </a></li>
+            </ul>
+    </div>
+    <button onclick="goBack()">Volver</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+</body>
+</html>
